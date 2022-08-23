@@ -1,0 +1,28 @@
+header {
+    background-color: rgb(230, 216, 127);
+}
+
+.container-topo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.container-topo__logo {
+    width: 100px;
+}
+
+.container-topo__lista {
+    display: flex;
+    list-style: none;
+}
+
+.container-topo__link {
+    padding: 10px;
+    text-decoration: none;
+    font-weight: 700;
+    color: #000;
+    font-size: 21px;
+    margin-left: 20px;
+}
+
